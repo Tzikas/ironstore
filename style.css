@@ -1,59 +1,21 @@
-*{
-    transition: all 1s;
-}
-
-
-body{
+body {
+    background-color: aquamarine;
     padding: 10px;
-    background-color: lightseagreen;
-
 }
 
-section{
+section {
     display: flex;
     flex-direction: row;
 }
-
 
 img {
     width: 50px;
 }
 
-
-#cart{
-    background-color:salmon;
+#shoppingCart {
+    background-color: salmon;
 }
 
-#cart, #items{
+#shoppingCart, #items {
     width: 50vw;
-}
-
-
-
-
-
-
-
-
-
-h1{
-    color:#7c32ff;
-}
-/*selecting a tag*/
-
-p{
-    color:green;
-    text-decoration: line-through;
-}
-
-
-/*Ids have hashtags*/
-#two {
-    background-color:rebeccapurple;
-}
-
-/*classes have dots*/
-.example {
-    border: 5px dashed purple;
-    margin: 5px;
 }
